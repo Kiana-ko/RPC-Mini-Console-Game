@@ -1,0 +1,15 @@
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/bin/Debug/net7.0/RPC mini Game
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/bin/Debug/net7.0/RPC mini Game.deps.json
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/bin/Debug/net7.0/RPC mini Game.runtimeconfig.json
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/bin/Debug/net7.0/RPC mini Game.dll
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/bin/Debug/net7.0/RPC mini Game.pdb
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/RPC mini Game.csproj.AssemblyReference.cache
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/RPC mini Game.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/RPC mini Game.AssemblyInfoInputs.cache
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/RPC mini Game.AssemblyInfo.cs
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/RPC mini Game.csproj.CoreCompileInputs.cache
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/RPC mini Game.dll
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/refint/RPC mini Game.dll
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/RPC mini Game.pdb
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/RPC mini Game.genruntimeconfig.cache
+/Users/kianakooshesh/Projects/Rock_Paper_Scissors/RPC mini Game/obj/Debug/net7.0/ref/RPC mini Game.dll

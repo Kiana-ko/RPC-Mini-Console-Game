@@ -13,7 +13,7 @@ namespace App
         public List<string> RPC_GameObjects { get; set; }
 
 
-        public int DesiredGameRounds
+        public int DesiredGameRounds 
         {
             get { return desiredGameRounds; }
             set

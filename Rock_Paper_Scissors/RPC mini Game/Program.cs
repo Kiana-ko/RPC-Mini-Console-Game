@@ -53,16 +53,70 @@ class Program
             }
         } while (!validChoice);
 
+        Console.WriteLine("===== Shoot: ======");
+
         Console.WriteLine($"You chose: {userChoice}");
 
+        string computerChoice = "";
+        bool validChoice2 = false;
 
-        /*Allow the user to choose an object and display it in the command line
-        then display the results and afterwards end the game if number of chosen
-        rounds r 1 and if not continue the game until the game reaches the rounds
-        the user has choosen when starting the game*/
+
+        Console.WriteLine("===== Computer's Choice: ======");
+
+
+        Random random_ComputersChoice = new Random();
+
+        
+        
+        computerChoice = rpcGameObjects[random_ComputersChoice.Next(rpcGameObjects.Count)];
+
+        Console.WriteLine($"Computer chose: {computerChoice}");
+
+        
+        if (userChoice.Equals(computerChoice, StringComparison.OrdinalIgnoreCase))
+        {
+            Console.WriteLine("It's a tie!");
+        }
+        else if (
+            (userChoice.Equals("Rock", StringComparison.OrdinalIgnoreCase) && computerChoice.Equals("Scissors", StringComparison.OrdinalIgnoreCase)) ||
+            (userChoice.Equals("Scissors", StringComparison.OrdinalIgnoreCase) && computerChoice.Equals("Paper", StringComparison.OrdinalIgnoreCase)) ||
+            (userChoice.Equals("Paper", StringComparison.OrdinalIgnoreCase) && computerChoice.Equals("Rock", StringComparison.OrdinalIgnoreCase))
+        )
+        {
+            Console.WriteLine($"You win this round, congratss!");
+            usersScore++;
+            winnedRounds++;
+        }
+        else
+        {
+            Console.WriteLine($"Computer wins this round!");
+            computersScore++;
+            lostRounds++;
+        }
+
+        RoundsPlayed++;
+
+        
+        Console.WriteLine("\nDo you want to play another round? (yes/no)");
+        string playAgain = Console.ReadLine();
+
+        if (playAgain.Equals("no", StringComparison.OrdinalIgnoreCase))
+        {
+            Console.WriteLine("\nGame Summary:");
+            Console.WriteLine($"Total rounds played: {RoundsPlayed}");
+            Console.WriteLine($"Your score: {usersScore}");
+            Console.WriteLine($"Computer's score: {computersScore}");
+            Console.WriteLine($"Rounds won: {winnedRounds}");
+            Console.WriteLine($"Rounds lost: {lostRounds}");
+            Console.WriteLine("Thanks for playing!");
+        }
+        else
+        {
+            validChoice = false;
+            Console.Clear(); 
+            Console.WriteLine("Let's play another round!");
+           
+        }
 
     }
 }
-
-//End Of The App;
-// If the user loses give me the option to retry, if they win say u won, congrats

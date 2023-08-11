@@ -9,8 +9,7 @@ namespace Application
 
         public Rock()
         {
-            // Constructor logic, if needed
-            // ...
+            
         }
 
     }

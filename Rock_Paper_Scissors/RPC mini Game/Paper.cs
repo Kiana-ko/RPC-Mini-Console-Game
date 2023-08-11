@@ -9,8 +9,7 @@ namespace Application
 
         public Paper()
         {
-            // Constructor logic, if needed
-            // ...
+            
         }
     }
 }

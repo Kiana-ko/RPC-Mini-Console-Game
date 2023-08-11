@@ -1,0 +1,4 @@
+<ListOfTaskListEntry>
+  <TaskListEntry file="" description="Make the computer generate a random choice " completed="True" />
+  <TaskListEntry file="" description="Let the user play 1 or 2 more rounds " />
+</ListOfTaskListEntry>

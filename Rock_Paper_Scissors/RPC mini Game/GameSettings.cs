@@ -5,9 +5,9 @@ namespace App
 {
     public class GameSettings
     {
-        // Number of rounds desired for the game
+        
         public int desiredGameRounds;
-        public int gameItemsCount; //3
+        public int gameItemsCount; 
         public int gameItems;
 
         public List<string> RPC_GameObjects { get; set; }
@@ -57,7 +57,7 @@ namespace App
 
         public GameSettings()
         {
-            // Instantiate the list and add game objects to it
+            
             RPC_GameObjects = new List<string> { "Rock", "Paper", "Scissors" };
         }
     }
